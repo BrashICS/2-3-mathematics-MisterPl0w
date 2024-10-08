@@ -19,3 +19,25 @@ console.log(`I generated the number ${random_number}`)
 
 // ***  Your code goes below  ***
 
+// Part 1
+let celsius = 100;
+let fahrenheit = 0;
+
+celsius += 2;
+fahrenheit = (celsius * 9/5) + 32;
+console.log(fahrenheit);
+
+// Part 2
+fahrenheit = 77;
+celsius = (fahrenheit - 32) * 5/9;
+console.log(celsius);
+
+// Part 3
+console.log(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees celsius.`);
+
+// Part 4
+let m = (5-0)/(-4-6);
+console.log(m);
+
+// Part 5
+console.log(`The volume of my random cylinder is ${Math.round(Math.PI * ((Math.random()*10)**2) * (Math.random()*10))}`);
